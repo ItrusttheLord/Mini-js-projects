@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #19181a;
+  color: #fff;
+}
+
+.container {
+  margin: 12%;
+  width: 90%;
+  max-width: 700px;
+  position: relative;
+}
+
+.password-box {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  background: #fff;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px 20px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.container h1 {
+  font-weight: 500;
+  font-size: 45px;
+}
+
+.container h1 span {
+  color: #019f55;
+  border-bottom: 4px solid #019f55;
+  padding-bottom: 7px;
+}
+
+.password-box #copyBtn {
+  position: absolute;
+  width: 30px;
+  right: 15px;
+  color: #707070;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.password-box input {
+  border: 0;
+  outline: 0;
+  font-size: 24px;
+}
+
+#copyBtn:hover {
+  color: #826afb;
+}
+
+.range-box {
+  width: 100%;
+  padding: 5px 100px;
+  border-radius: 8px;
+}
+
+.container .range-box {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.range-box input {
+  width: 100%;
+  height: 5px;
+  accent-color: #826afb;
+  cursor: pointer;
+}
+
+.range-box .slider-number {
+  min-width: 30px;
+  text-align: right;
+  font-size: 25px;
+  font-weight: 700;
+  color: 707070;
+}
+
+.container button img {
+  width: 28px;
+  margin-right: 10px;
+}
+
+.container .gen-btn {
+  width: 50%;
+  border: 0;
+  outline: 0;
+  background: #019f55;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 23%;
+}
+
+.gen-btn:hover {
+  background: #826afb;
+}
