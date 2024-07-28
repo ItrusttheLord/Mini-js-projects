@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password/Email Validation</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/25048f03d1.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <form>
+        <h2>Sign Up</h2>
+        <i class="fa-regular fa-paper-plane"></i>
+
+        <div class="input-group">
+          <label>Enter Email</label>
+          <input
+            type="email"
+            placeholder="email12@gmail.com"
+            id="contact-email"
+            onkeyup="validateEmail()"
+          />
+          <span class="error" id="email-error"></span>
+        </div>
+
+        <div class="input-group">
+          <label>Enter Password</label>
+          <input
+            type="password"
+            placeholder="Ratrace12!"
+            id="contact-password"
+            onkeyup="validatePassword()"
+          />
+          <img src="assets/eye-close.png" id="eyeIcon" />
+          <span class="error" id="password-error"></span>
+        </div>
+
+        <div class="input-group">
+          <label>Confirm Password</label>
+          <input
+            type="password"
+            placeholder="Ratrace12!"
+            id="contact-confirm"
+            onkeyup="confirmPass()"
+          />
+          <img src="assets/eye-close.png" id="eyeIcon" />
+          <span class="error" id="confirm-error"></span>
+        </div>
+
+        <button class="signBtn" onclick="return validateForm()">Sign Up</button>
+        <span id="submit-error"></span>
+      </form>
+    </div>
+  </body>
+</html>

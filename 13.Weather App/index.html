@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input type="text" placeholder="enter city name" spellcheck="false" />
+        <button>
+          <img src="assets/images/search.png" class="search-icon" />
+        </button>
+      </div>
+
+      <div class="error">
+        <p>Invalid City name!</p>
+      </div>
+
+      <div class="weather">
+        <img src="assets/images/rain.png" class="weather-icon" />
+        <h2 class="city">Florida</h2>
+        <h1 class="temp">90°F</h1>
+        <div class="details">
+          <div class="col">
+            <img src="assets/images/humidity.png" alt="" />
+            <div>
+              <p>Humidity</p>
+              <p class="humidity">50%</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <img src="assets/images/wind.png" alt="" />
+            <div>
+              <p>Wind</p>
+              <p class="wind">3 mph</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="days">
+          <ul class="lists">
+            <li class="mon">
+              Mon
+              <img id="day" src="assets/images/clouds.png" width="30" />
+              <span class="week-temp">90°F</span>
+            </li>
+            <li class="tue">
+              Tue
+              <img id="day" src="assets/images/clouds.png" width="30" />
+              <span class="week-temp">90°F</span>
+            </li>
+            <li class="Wed">
+              Wed
+              <img id="day" src="assets/images/snow.png" width="30" />
+              <span class="week-temp">90°F</span>
+            </li>
+            <li class="thu">
+              Thu
+              <img id="day" src="assets/images/clouds.png" width="30" />
+              <span class="week-temp">90°F</span>
+            </li>
+            <li class="fri">
+              Fri
+              <img id="day" src="assets/images/rain.png" width="30" />
+              <span class="week-temp">90°F</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <footer></footer>
+    </div>
+  </body>
+</html>

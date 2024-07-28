@@ -1,0 +1,37 @@
+body {
+  background-image: url(https://opengameart.org/sites/default/files/black02_0.png);
+  background-position: center;
+}
+
+.time {
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  padding: 40px 0;
+  color: #fff;
+  margin: 200px auto 0;
+  background: transparent;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.8);
+}
+
+.time h1 {
+  margin-top: 60px;
+  font-size: 80px;
+  font-weight: 900;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons img {
+  width: 60px;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+img:nth-child(2) {
+  width: 100px;
+}
